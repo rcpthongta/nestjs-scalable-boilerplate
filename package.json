@@ -1,0 +1,22 @@
+{
+  "name": "nestjs-scalable-boilerplate",
+  "version": "0.0.1",
+  "description": "A minimal and scalable NestJS boilerplate using Express.js and Webpack (with SWC), designed for building production-ready backend applications",
+  "author": "rcpthongta",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rcpthongta/nestjs-scalable-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rcpthongta/nestjs-scalable-boilerplate/issues"
+  },
+  "private": true,
+  "engines": {
+    "node": "^24",
+    "npm": "^11"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3"
+  }
+}
