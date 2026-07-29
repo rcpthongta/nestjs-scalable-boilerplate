@@ -1,6 +1,7 @@
 {
   "recommendations": [
-    "EditorConfig.EditorConfig",
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig",
     "streetsidesoftware.code-spell-checker"
   ]
 }
