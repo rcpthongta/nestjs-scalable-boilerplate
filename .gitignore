@@ -10,6 +10,12 @@ dist/*
 
 coverages/*
 
+# Environment files
+
+.env
+.env.*
+!.env.example
+
 # Text editor directory and files • Visual Studio Code
 
 .vscode/*
