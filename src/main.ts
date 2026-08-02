@@ -1,4 +1,4 @@
-import { environment } from "@environment";
+import { EnvironmentService } from "@core";
 
 import { Logger } from "@nestjs/common";
 import { NestFactory } from "@nestjs/core";
@@ -13,6 +13,7 @@ class Bootstrap {
     try {
       const adapter: ExpressAdapter = new ExpressAdapter();
       const application: NestExpressApplication = await NestFactory.create(AppModule, adapter);
+      const environment: EnvironmentService = application.get(EnvironmentService);
 
       await application.listen(environment.server.port);
 
