@@ -60,7 +60,7 @@
     "outDir": "./dist",
     "paths": {
       "@api": ["./src/app/apis"],
-      "@environment": ["./src/environments"]
+      "@core": ["./src/app/core"]
     },
     "preserveConstEnums": true,
     "preserveSymlinks": false,
