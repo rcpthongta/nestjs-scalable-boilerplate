@@ -60,6 +60,7 @@
     "outDir": "./dist",
     "paths": {
       "@api": ["./src/app/apis"],
+      "@constant": ["./src/constants"],
       "@core": ["./src/app/core"]
     },
     "preserveConstEnums": true,
